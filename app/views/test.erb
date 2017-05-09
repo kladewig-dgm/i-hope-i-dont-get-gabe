@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Take quiz</title>
+  <!-- links to CSS stylesheet in the public directory -->
+  <link rel="stylesheet" href="/css/index.css" >
+</head>
+<body> 
+
+  <div class="test-page">
+    <h1>I HOPE I DONT GET GABE</h1> 
+  <form>
+    <p>WHO IN OUR CLASS ARE YOU LIKE?</p>
+  </form>
+</div>
+<form method="POST" action="/results">
+    <p>Who are you?</p>
+      <input type="text" name="name" value="name" placeholder="Name here...">  <br>
+    <p>Question 1: What is your favorite color?</p>
+      <input type="radio" name="q1" value="a"> Olive<br>
+      <input type="radio" name="q1" value="b"> Pastel pink<br>
+      <input type="radio" name="q1" value="c"> Yellow
+    <p>Question 2: What is your favorite type of music?</p>
+      <input type="radio" name="q2" value="a"> Rock<br>
+      <input type="radio" name="q2" value="b"> Hip Hop<br>
+      <input type="radio" name="q2" value="c"> Tuvan Throat Singing
+    <p>Question 3: What is your favorite thing to do on a Saturday night?</p>
+      <input type="radio" name="q3" value="a"> Fish with your toes<br>
+      <input type="radio" name="q3" value="b"> Chill with friends<br>
+      <input type="radio" name="q3" value="c"> Spend time downtown
+    <p>Question 4: What is your favorite hobby?</p>
+      <input type="radio" name="q4" value="c"> Drawing<br>
+      <input type="radio" name="q4" value="b"> Spartan<br>
+      <input type="radio" name="q4" value="a"> Gains
+    <p>Question 5: How are your grades?</p>
+      <input type="radio" name="q5" value="a"> Incredible<br>
+      <input type="radio" name="q5" value="b"> Could be better<br>
+      <input type="radio" name="q5" value="c"> What are grades?<br>
+      <input type="submit" name="submit" value="Lets see the results">
+  </form>
+  </div>
+
+</body>
+</html>
